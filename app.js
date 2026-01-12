@@ -41,3 +41,13 @@ function twelve(){
 }
 
 console.log(seventeen() / twelve() * eightytwo())
+
+const myPlanet={
+    name:"Earth",
+    age:`4.54 billion`,
+    population: `8.2 billion`,
+    mySiblings:{
+        amount:7
+    }
+}
+console.log(`hello my name is ${myPlanet.name} I am ${myPlanet.age} and I have a population of ${myPlanet.population}`)
